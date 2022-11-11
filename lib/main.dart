@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
-
-import 'homepage.dart';
+import 'package:scroll_to_appbar_hide/dashboard.dart';
 
 void main() {
   runApp(const MyApp());
@@ -15,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Scroll to AppBar Hide',
       theme: ThemeData(primarySwatch: Colors.deepPurple),
-      home: const HomePage(),
+      home: const Dashboard(),
     );
   }
 }
